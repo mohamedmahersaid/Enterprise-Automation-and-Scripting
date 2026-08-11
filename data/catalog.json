@@ -1,0 +1,145 @@
+{
+  "forestId": "au-automation-scripting",
+  "name": "Automation & Scripting",
+  "description": "The automation engineer's toolkit: PowerShell and Python for enterprise operations, Bash for Linux fleets, REST and Microsoft Graph API integration, and modern orchestration with n8n workflows and the Model Context Protocol (MCP) for AI-driven operations.",
+  "repository": "Enterprise-Automation-and-Scripting",
+  "treeCount": 5,
+  "branchCount": 8,
+  "expectedLeafCount": 16,
+  "levelCounts": {
+    "Advanced": 10,
+    "Enterprise": 1,
+    "Expert": 1,
+    "Intermediate": 4
+  },
+  "leaves": [
+    {
+      "id": "au-ps-advanced-functions",
+      "name": "PowerShell Advanced Functions, Error Handling and Modules",
+      "level": "Advanced",
+      "tree": "Scripting Languages",
+      "branch": "PowerShell for Operations",
+      "path": "docs/au-scripting-core/au-powershell/au-ps-advanced-functions.md"
+    },
+    {
+      "id": "au-ps-fleet",
+      "name": "Ansible and PowerShell Remoting: Fleet Automation at Scale",
+      "level": "Enterprise",
+      "tree": "Scripting Languages",
+      "branch": "PowerShell for Operations",
+      "path": "docs/au-scripting-core/au-powershell/au-ps-fleet.md"
+    },
+    {
+      "id": "au-python-infra",
+      "name": "Python for Infrastructure Automation",
+      "level": "Intermediate",
+      "tree": "Scripting Languages",
+      "branch": "Python & Bash for Infrastructure",
+      "path": "docs/au-scripting-core/au-python-bash/au-python-infra.md"
+    },
+    {
+      "id": "au-bash-rest",
+      "name": "Bash, REST APIs & Microsoft Graph",
+      "level": "Intermediate",
+      "tree": "Scripting Languages",
+      "branch": "Python & Bash for Infrastructure",
+      "path": "docs/au-scripting-core/au-python-bash/au-bash-rest.md"
+    },
+    {
+      "id": "au-n8n-workflows",
+      "name": "n8n and Node-RED Flow Automation: Self-Hosted Integration Design",
+      "level": "Intermediate",
+      "tree": "Workflow Orchestration & AI Automation",
+      "branch": "n8n Workflow Automation",
+      "path": "docs/au-orchestration/au-n8n/au-n8n-workflows.md"
+    },
+    {
+      "id": "au-event-driven-ops",
+      "name": "Event-Driven IT Operations Patterns",
+      "level": "Advanced",
+      "tree": "Workflow Orchestration & AI Automation",
+      "branch": "n8n Workflow Automation",
+      "path": "docs/au-orchestration/au-n8n/au-event-driven-ops.md"
+    },
+    {
+      "id": "au-mcp-protocol",
+      "name": "Model Context Protocol (MCP) Fundamentals",
+      "level": "Advanced",
+      "tree": "Workflow Orchestration & AI Automation",
+      "branch": "MCP & AI-Assisted Operations",
+      "path": "docs/au-orchestration/au-mcp-ai/au-mcp-protocol.md"
+    },
+    {
+      "id": "au-ai-runbooks",
+      "name": "AI-Assisted Runbooks & Agentic Operations",
+      "level": "Expert",
+      "tree": "Workflow Orchestration & AI Automation",
+      "branch": "MCP & AI-Assisted Operations",
+      "path": "docs/au-orchestration/au-mcp-ai/au-ai-runbooks.md"
+    },
+    {
+      "id": "au-error-handling-observability",
+      "name": "Error Handling, Logging & Observability in Automation",
+      "level": "Advanced",
+      "tree": "Enterprise Automation Practice",
+      "branch": "Reliability, Observability & State",
+      "path": "docs/au-enterprise-automation-practice/au-reliability-state/au-error-handling-observability.md"
+    },
+    {
+      "id": "au-idempotency-state-mgmt",
+      "name": "Idempotency & State Management",
+      "level": "Advanced",
+      "tree": "Enterprise Automation Practice",
+      "branch": "Reliability, Observability & State",
+      "path": "docs/au-enterprise-automation-practice/au-reliability-state/au-idempotency-state-mgmt.md"
+    },
+    {
+      "id": "au-secrets-handling-automation",
+      "name": "Secrets Handling in Automation",
+      "level": "Advanced",
+      "tree": "Enterprise Automation Practice",
+      "branch": "Secrets Handling & Reusable Tooling",
+      "path": "docs/au-enterprise-automation-practice/au-secrets-tooling/au-secrets-handling-automation.md"
+    },
+    {
+      "id": "au-reusable-modules-tooling",
+      "name": "Reusable Modules, Collections & Internal Tooling",
+      "level": "Intermediate",
+      "tree": "Enterprise Automation Practice",
+      "branch": "Secrets Handling & Reusable Tooling",
+      "path": "docs/au-enterprise-automation-practice/au-secrets-tooling/au-reusable-modules-tooling.md"
+    },
+    {
+      "id": "au-workflow-engine-selection",
+      "name": "Workflow Engine Selection: n8n, Camunda, Airflow, Node-RED and Rundeck",
+      "level": "Advanced",
+      "tree": "Enterprise Workflow & Process Automation",
+      "branch": "Workflow & Process Automation",
+      "path": "docs/au-tree-workflow-process/au-branch-workflow-process/au-workflow-engine-selection.md"
+    },
+    {
+      "id": "au-rpa-lowcode-governance",
+      "name": "RPA and Low-Code Governance: UiPath, Power Automate and Citizen Developer Control",
+      "level": "Advanced",
+      "tree": "Enterprise Workflow & Process Automation",
+      "branch": "Workflow & Process Automation",
+      "path": "docs/au-tree-workflow-process/au-branch-workflow-process/au-rpa-lowcode-governance.md"
+    },
+    {
+      "id": "au-configmgmt-landscape",
+      "name": "Configuration Management Tool Landscape Chef Puppet Salt and OpenTofu Migration",
+      "level": "Advanced",
+      "tree": "Estate Tooling and Certificate Lifecycle",
+      "branch": "Inherited Tooling and Expiry Management",
+      "path": "docs/au-tree-estate-automation/au-branch-estate-automation/au-configmgmt-landscape.md"
+    },
+    {
+      "id": "au-certificate-lifecycle",
+      "name": "Certificate Lifecycle Automation Expiry Scanning and Renewal Across the Estate",
+      "level": "Advanced",
+      "tree": "Estate Tooling and Certificate Lifecycle",
+      "branch": "Inherited Tooling and Expiry Management",
+      "path": "docs/au-tree-estate-automation/au-branch-estate-automation/au-certificate-lifecycle.md"
+    }
+  ]
+}
